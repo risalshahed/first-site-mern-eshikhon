@@ -1,0 +1,154 @@
+body {
+  font-family: 'Tinos', serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  padding: 4rem;    /* 1rem = 16px */
+}
+
+section {
+  padding-bottom: 6rem;
+}
+
+.flex-portion {
+  display: flex;
+}
+
+/* flex-portion class er vitore JOTO div asey */
+/* .flex-portion div {
+  border: 2px solid red;
+} */
+
+/* flex-portion class er vitore direct child div gulo */
+.flex-portion > div {
+  /* border: 2px solid red; */
+  box-shadow: 5px 8px 18px #aaa;
+}
+
+.fifty-fifty-cols {
+  width: 50%;
+  margin: auto 5%;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+#page-title {
+  border-left: 4px solid #ff5959;
+  padding-left: 8px;
+}
+
+p {
+  font-size: 150%;
+  /* margin-bottom: 40px; */
+}
+
+span {
+  color: #ffad5a;
+}
+
+button {
+  background-color: #ff5959;
+  padding: 15px 25px;
+  border: 0;
+  border-radius: 8px;
+}
+
+a {
+  color: #00f;
+  text-decoration: none;
+}
+
+#my-img {
+  width: 100%;
+}
+
+.center-texts {
+  text-align: center;
+}
+
+.illustrators {
+  width: 33%;
+  border-radius: 20px;
+  margin: 0 2%;
+  padding: 0 15px;
+}
+
+#illustrator-1 {
+  background-color: #4F9DA6;
+}
+
+#illustrator-2 {
+  background-color: #FF5959;
+}
+
+#illustrator-3 {
+  background-color: #FFF4D6;
+}
+
+.illustrators img {
+  width: 40%;
+}
+
+.forty-percent-col {
+  width: 40%;
+  margin: 0 2%;
+  padding-left: 4%;
+  padding-right: 5%;
+}
+
+.sixty-percent-col {
+  width: 60%;
+}
+
+#coders-img {
+  width: 100%;
+}
+
+#project-img {
+  width: 100%;
+}
+
+.bg-img-coders, .bg-img-project {
+  background-image: url('images/shapes/shape-1.png');
+  background-repeat: no-repeat;
+  background-size: 15%;
+}
+
+.bg-img-coders {
+  background-position-x: 0%;
+  background-position-y: 35%;
+}
+
+.bg-img-project {
+  background-position-x: 100%;
+  background-position-y: 95%;
+}
+
+#software-img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+#shadow-div {
+  box-shadow: 5px 8px 25px #ccc;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  padding: 0 8px;
+}
+
+footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 3px 0;
+}
